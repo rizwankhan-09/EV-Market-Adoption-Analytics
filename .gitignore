@@ -1,0 +1,9 @@
+
+.venv/
+.idea/
+__pycache__/
+*.pyc
+
+# Keep dataset files out of Git until licence is verified
+data/raw/*
+data/processed/*
