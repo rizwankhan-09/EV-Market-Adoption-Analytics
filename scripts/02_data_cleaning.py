@@ -2,10 +2,10 @@
 import pandas as pd
 from pathlib import Path
 
-# 1. Find the main project folder
+# 1.main project folder
 project_path = Path(__file__).resolve().parent.parent
 
-# 2. Define input and output file paths
+# 2. input and output file paths
 raw_path = (
     project_path
     / "data"
@@ -20,7 +20,7 @@ output_path = (
     / "ev_sales_cleaned.csv"
 )
 
-# 3. Load the original dataset
+# 3.  original dataset
 df = pd.read_csv(raw_path)
 
 print("Original dataset shape:", df.shape)
