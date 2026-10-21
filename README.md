@@ -1,68 +1,63 @@
-\# Electric Vehicle Market \& Adoption Analytics — India
+# Electric Vehicle Market & Adoption Analytics — India
 
+## Project Overview
 
+This project explores electric vehicle (EV) sales patterns across Indian states, years, vehicle categories, and vehicle types using Python, Pandas, MySQL, and Power BI.
 
-\## Project Overview
+The goal is to transform raw data into meaningful insights through data cleaning, SQL analysis, and interactive visualizations.
 
-This project analyzes electric vehicle (EV) sales patterns across Indian states, years, and vehicle categories using Python, Pandas, MySQL, and Power BI.
+## Project Objectives
 
+- Analyze EV sales trends over time.
+- Compare reported EV sales quantities across Indian states.
+- Understand sales distribution across vehicle categories and types.
+- Inspect, clean, and validate data using Python Pandas.
+- Use SQL queries to answer business questions.
+- Build an interactive Power BI dashboard for data exploration.
 
+## Tools & Technologies
 
-\## Project Objectives
+- Python
+- Pandas
+- MySQL
+- Power BI
+- Git and GitHub
 
-\- Analyze EV sales trends over time.
+## Project Workflow
 
-\- Compare reported sales quantities across states and vehicle categories.
+1. **Data Inspection:** Examined dataset structure, columns, missing values, duplicates, and sales patterns.
+2. **Data Cleaning:** Standardized data types, parsed dates, validated sales quantities, and exported the cleaned dataset.
+3. **SQL Analysis:** Queried EV sales by year, state, vehicle category, and vehicle type.
+4. **Power BI Dashboard:** Created KPI cards, slicers, trend charts, and sales comparison visuals.
+5. **Documentation:** Recorded the workflow, tools, and limitations of the analysis.
 
-\- Clean and validate data using Python Pandas.
+## Dashboard Preview
 
-\- Perform SQL analysis to answer business questions.
+![India EV Market & Adoption Analytics Dashboard](powerbi/ev_dashboard.png)
 
-\- Develop an interactive Power BI dashboard.
+## Key Analysis Areas
 
+- Annual EV sales trends
+- State-wise EV sales comparison
+- Vehicle category sales distribution
+- Top vehicle types by reported sales
+- Monthly sales patterns
+- Total reported EV sales and dataset coverage
 
+## Project Structure
 
-\## Tools \& Technologies
-
-\- Python
-
-\- Pandas
-
-\- MySQL
-
-\- Power BI
-
-\- Git and GitHub
-
-
-
-\## Project Progress
-
-\- \[x] Dataset inspection
-
-\- \[x] Data cleaning and validation
-
-\- \[ ] SQL analysis
-
-\- \[ ] Power BI dashboard
-
-\- \[ ] Final insights and screenshots
-
-
-
-\## Dataset
-
-The source dataset is stored locally and excluded from GitHub while its redistribution permissions are being verified. Dataset source and licence details will be documented here.
-
-
-
-\## Project Status
-
-In Progress
-
-
-
-\## Disclaimer
-
-Analysis will reflect the available dataset's coverage and definitions. Reported sales quantities should not automatically be interpreted as independently verified vehicle registrations.
-
+```text
+EV_Market_Analytics/
+├── data/
+│   ├── raw/
+│   └── processed/
+├── scripts/
+│   ├── 01_data_inspection.py
+│   └── 02_data_cleaning.py
+├── sql/
+│   └── 01_ev_sales_analysis.sql
+├── powerbi/
+│   └── ev_dashboard.png
+├── notebooks/
+├── .gitignore
+└── README.md
