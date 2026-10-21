@@ -65,6 +65,21 @@ Raw and cleaned CSV files are stored locally and excluded from GitHub while redi
 - Monthly sales patterns
 - Total reported EV sales and dataset coverage
 
+## Key Business Insights
+
+- Total recorded EV sales are approximately 4 million across 34 states and union territories.
+- Uttar Pradesh records the highest EV sales, followed by Maharashtra.
+- Two-wheelers represent the largest share of recorded EV sales.
+- Annual sales show substantial growth in recent years, particularly between 2022 and 2023.
+- Monthly analysis indicates variations in recorded EV sales throughout the year.
+- The apparent decline in 2024 should be interpreted cautiously because the available data may be incomplete.
+
+## Limitations
+
+- The analysis is based on the available dataset and its reported sales quantities.
+- The 2024 data may be incomplete, affecting year-over-year comparisons.
+- The findings describe patterns in the dataset and should not automatically be interpreted as explanations of market behaviour.
+
 ## Project Structure
 
 ```text
