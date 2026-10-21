@@ -42,11 +42,11 @@ The goal is to transform raw data into meaningful insights through data cleaning
 - [x] SQL analysis with 20 business-focused queries
 - [x] Interactive Power BI dashboard
 - [x] Dashboard screenshot uploaded to GitHub
-- [ ] Final business insights and conclusions
+- [x] Final business insights and conclusions
 
 ## Project Status
 
-Core analysis and dashboard completed. Final documentation and insights are in progress.
+Core analysis, data cleaning, SQL queries, Power BI dashboard, and project documentation are complete. The project is ready for portfolio review.
 
 ## Dataset
 
@@ -67,7 +67,7 @@ Raw and cleaned CSV files are stored locally and excluded from GitHub while redi
 
 ## Key Business Insights
 
-- Total recorded EV sales are approximately 4 million across 34 states and union territories.
+- The dataset contains approximately 4 million recorded EV sales across 34 states and union territories.
 - Uttar Pradesh records the highest EV sales, followed by Maharashtra.
 - Two-wheelers represent the largest share of recorded EV sales.
 - Annual sales show substantial growth in recent years, particularly between 2022 and 2023.
@@ -84,16 +84,17 @@ Raw and cleaned CSV files are stored locally and excluded from GitHub while redi
 
 ```text
 EV_Market_Analytics/
-├── data/
-│   ├── raw/
-│   └── processed/
 ├── scripts/
 │   ├── 01_data_inspection.py
 │   └── 02_data_cleaning.py
 ├── sql/
 │   └── 01_ev_sales_analysis.sql
 ├── powerbi/
+│   ├── India_EV_Market_Adoption_Analytics.pbix
 │   └── ev_dashboard.png
+├── data/
+│   ├── raw/
+│   └── processed/
 ├── notebooks/
 ├── .gitignore
 └── README.md
