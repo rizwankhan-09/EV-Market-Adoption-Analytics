@@ -35,6 +35,27 @@ The goal is to transform raw data into meaningful insights through data cleaning
 
 ![India EV Market & Adoption Analytics Dashboard](powerbi/ev_dashboard.png)
 
+## Project Progress
+
+- [x] Dataset inspection
+- [x] Data cleaning and validation using Python Pandas
+- [x] SQL analysis with 20 business-focused queries
+- [x] Interactive Power BI dashboard
+- [x] Dashboard screenshot uploaded to GitHub
+- [ ] Final business insights and conclusions
+
+## Project Status
+
+Core analysis and dashboard completed. Final documentation and insights are in progress.
+
+## Dataset
+
+The dataset contains reported electric vehicle sales information across Indian states, vehicle categories, and vehicle types from 2014 to 2024.
+
+Raw and cleaned CSV files are stored locally and excluded from GitHub while redistribution permissions are being verified.
+
+**Note:** The available 2024 data may be incomplete. Comparisons involving 2024 should therefore be interpreted cautiously.
+
 ## Key Analysis Areas
 
 - Annual EV sales trends
